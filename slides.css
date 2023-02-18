@@ -9,14 +9,18 @@
   font-size: 0.55em;
 }
 .end-link {
-  font-family: 'Lurk A', sans-serif;
+  font-family: 'Eternal UI', sans-serif;
   bottom: 10%;
   position: absolute;
   width: 100%;
   padding: 0 35px;
   font-size: 25px;
   line-height: 1.8;
-  color: #fff;
+  background: #ffc001;
+  color: #000;
+}
+.end-link a {
+  color: #000;
 }
 .logo {
   width: 150px;

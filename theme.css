@@ -1,36 +1,37 @@
 @font-face {
-  font-family: 'a_BosaNova';
-  src: url("ABosaNova.woff2") format('woff2'), url("ABosaNova.woff") format('woff');
+  font-family: 'Eternal UI';
+  src: url("EternalUI-Regular.woff2") format('woff2'), url("EternalUI-Regular.woff") format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 li,
+th,
 td {
-  font-family: 'Lurk B', 'PT Mono', sans-serif;
-  color: #fff;
-}
-td {
-  font-size: 20px;
-}
-th {
-  font-family: 'Lurk A', 'a_BosaNova', sans-serif;
-  color: #fff;
-  padding-bottom: 20px !important;
+  font-family: 'PT Mono', sans-serif;
 }
 blockquote {
-  font-size: 30px;
-  line-height: 1.3;
-  padding: 20px 0;
-  font-family: 'Lurk B', 'PT Mono', sans-serif;
-  color: #fff;
+  font-family: 'PT Mono', sans-serif;
+  color: #272931;
+  font-weight: 100;
+  letter-spacing: -1px;
 }
 blockquote:before {
   font-family: 'PT Sans';
-  font-size: 3em !important;
+}
+.source {
+  font-family: 'Eternal UI', sans-serif;
+  bottom: 10%;
+  position: absolute;
+  padding: 0 15px;
+  font-size: 25px;
+  line-height: 1.8;
+  background: #ffc001;
+  left: 0;
+  text-align: center;
 }
 .nosign li {
-  font-family: 'Lurk B', 'PT Mono', sans-serif;
+  font-family: 'PT Mono', sans-serif;
 }
 .nosign li:before {
   visibility: hidden;
@@ -39,14 +40,14 @@ blockquote:before {
   background: none;
   height: 75px;
   min-width: 55px;
-  color: #231f20;
-  font-family: 'Lurk A', 'a_BosaNova', sans-serif;
+  color: #fff;
+  font-family: 'Eternal UI', sans-serif;
   font-size: 40px;
   padding-top: 0;
   margin-left: 30px;
 }
 .slide.rbn::after {
-  background: #fff200;
+  background: #272931;
 }
 .slide::before {
   position: absolute;
@@ -62,11 +63,12 @@ blockquote:before {
 }
 .slide h2 {
   color: #000;
-  font-family: 'Lurk A', 'a_BosaNova', sans-serif;
+  font-family: 'Eternal UI', sans-serif;
   font-weight: 100;
+  letter-spacing: 1px;
 }
 .slide a {
-  color: #fff;
+  color: #008000;
 }
 .slide a.bottom {
   position: absolute;
@@ -107,7 +109,7 @@ blockquote:before {
   color: #999;
 }
 .progress:before {
-  background: #fff200;
+  background: #ffc001;
 }
 .tag {
   color: #ad1531;
@@ -139,7 +141,7 @@ blockquote:before {
   opacity: 0;
 }
 .slide.menu-slide .selected-item {
-  background-color: #fff;
+  background-color: #272931;
   display: inline-block;
 }
 .slide.menu-slide .transparent {
@@ -147,20 +149,18 @@ blockquote:before {
 }
 .slide.label-header h2 {
   display: inline-block;
-  background-color: #aa3d37;
-  padding: 10px 15px 5px;
-  color: #fff;
-  font-family: 'Lurk A', 'a_BosaNova', sans-serif;
+  background-color: #ffc001;
+  padding: 10px 15px 15px;
+  font-family: 'Eternal UI', sans-serif;
   font-size: 44px;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  color: #272931;
 }
 .slide.label-header h2.shout {
   margin-left: 0;
   padding: 20px 0 30px;
   font-size: 62px;
   border: none;
-  background: none;
-  color: #fff;
 }
 .slide.label-header.bg h2 {
   background: none;
@@ -195,6 +195,10 @@ blockquote:before {
 .slide.bgblack {
   background: #000;
 }
+blockquote {
+  font-size: 35px;
+  line-height: 1.4;
+}
 figcaption {
   opacity: 0.5;
   position: relative;
@@ -202,7 +206,7 @@ figcaption {
   margin-top: 40px !important;
 }
 .label {
-  background-color: #fff;
+  background-color: #272931;
   color: #fff;
   padding: 0 10px;
   display: inline-block;
